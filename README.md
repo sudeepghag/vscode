@@ -10,13 +10,13 @@ https://code.visualstudio.com/docs/editor/tasks#vscode
         "version": "2.0.0",
         "tasks": [
                 {
-                        "label": "get-class",
+                        "label": "sf-get",
                         "type": "shell",
                         "command": "sfdx",
                         "args": [
                                 "force:source:retrieve",
                                 "-m",
-                                "\"${input:varObjects}\""
+                                "\"${input:varType}:${input:varObjectName}\""
                         ],
                         "group": "build",
                         "presentation": {
@@ -29,10 +29,24 @@ https://code.visualstudio.com/docs/editor/tasks#vscode
         ],
         "inputs": [
                 {
+                        "type": "pickString",
+                        "id": "varType",
+                        "description": "What type of Object?",
+                        "options": [
+                          "ApexClass",
+                          "ApexTrigger",
+                          "LightningComponentBundle",
+                          "AuraDefinitionBundle",
+                          "CustomObject",
+                          "Flow"
+                        ],
+                        "default": "ApexClass"
+                },
+                {
                         "type": "promptString",
-                        "id": "varObjects",
+                        "id": "varObjectName",
                         "description": "Objects to retieve",
-                        "default": "ApexClass:Constant"
+                        "default": "Constant"
                 }
         ]
 }
