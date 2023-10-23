@@ -3,6 +3,9 @@
 ## Config 1st time:
 https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode
 
+## Salesforce CLI:
+https://github.com/salesforcecli/cli/
+
 ## Configure new task:
 https://code.visualstudio.com/docs/editor/tasks#vscode
 
