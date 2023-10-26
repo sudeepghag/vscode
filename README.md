@@ -5,6 +5,8 @@ https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vsco
 
 ## Salesforce CLI:
 https://github.com/salesforcecli/cli/
+#### troubleshooting
+https://developer.salesforce.com/tools/vscode/en/troubleshooting
 
 ## Configure new task:
 https://code.visualstudio.com/docs/editor/tasks#vscode
