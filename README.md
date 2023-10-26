@@ -5,6 +5,8 @@ https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vsco
 
 ## Salesforce CLI:
 https://github.com/salesforcecli/cli/
+#### sfdx config
+https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm
 #### troubleshooting
 https://developer.salesforce.com/tools/vscode/en/troubleshooting
 
