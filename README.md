@@ -1,14 +1,28 @@
 # vscode
 
+## node.js
+https://www.geeksforgeeks.org/installation-of-node-js-on-windows/
+
 ## Config 1st time:
+https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode
+
+## Salesforce Extension Pack
 https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode
 
 ## Salesforce CLI:
 https://github.com/salesforcecli/cli/
+https://developer.salesforce.com/tools/salesforcecli
+https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm#sfdx_setup_install_cli_windows
+
 #### sfdx config
 https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm
 #### troubleshooting
 https://developer.salesforce.com/tools/vscode/en/troubleshooting
+
+npm uninstall package-name
+
+## PMD
+https://docs.pmd-code.org/latest/pmd_rules_apex_bestpractices.html
 
 ## Configure new task:
 https://code.visualstudio.com/docs/editor/tasks#vscode
